@@ -1,30 +1,36 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="index.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-    </head>
-    <body>
-        <h1 class='sr-only'>Colour Picker</h1>
-        <main>
-            <div>
-                <form id='scheme-form'> 
-                    <label for"color"> Colour:</label>
-                    <input id='color' name='color' type="color">
-                    <label for"scheme-select"></label>
-                    <select name="scheme-select" id="scheme-select">
-                        <option value="monochrome">Monochrome</option>
-                    </select>
-                    <button type='submit' id='colour-btn'>Choose</button>
-                </form>
-            </div>
-            <div id='output-colours'></div>
-            <div id='output-hex'></div>
-            
-        </main>
-        
-        <script src="index.js"></script>
-    </body>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <h1 class="sr-only">Colour Picker</h1>
+    <main>
+      <div>
+        <form id="scheme-form">
+          <label for="color"> Colour:</label>
+          <input id="color" name="color" type="color" />
+          <label for="scheme-select"></label>
+          <select name="scheme-select" id="scheme-select">
+            <option value="monochrome">Monochrome</option>
+          </select>
+          <button type="submit" id="colour-btn">Choose</button>
+        </form>
+      </div>
+      <div id="output-colours"></div>
+      <div id="output-hex"></div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
 </html>
